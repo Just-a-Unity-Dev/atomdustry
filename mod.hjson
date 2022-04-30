@@ -3,7 +3,7 @@ displayName: "[red]At[green]om[accent]dustry"
 author: "eclips_e#0001"
 description: '''[red]At[green]om[accent]dustry
 	[white]The power of the atom in the palm of your hand"'''
-version: "0.1 (alpha)"
+version: "0.1"
 minGameVersion: "135"
 dependencies: [ ]
 hidden: false
