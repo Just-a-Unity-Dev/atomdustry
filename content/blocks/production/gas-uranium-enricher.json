@@ -8,8 +8,8 @@
 	"hasPower": true,
 	"hasLiquids": false,
 	"hasItems": true,
-	"craftTime": 70,
-	"itemCapacity": 30,
+	"craftTime": 200,
+	"itemCapacity": 8,
 	"craftEffect": "instBomb",
 	"updateEffect": "none",
 	"consumes": {

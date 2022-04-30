@@ -9,14 +9,14 @@
 	"hasLiquids": false,
 	"hasItems": true,
 	"craftTime": 250,
-	"itemCapacity": 30,
+	"itemCapacity": 4,
 	"craftEffect": "instBomb",
 	"updateEffect": "none",
 	"consumes": {
 		"power": 5,
 		"items": {
 			"items": [
-				"item-uranium/10"
+				"item-uranium/4"
 			]
 		}
 	},

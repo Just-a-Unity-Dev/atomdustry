@@ -7,6 +7,7 @@ The power of the atom in the palm of your hand
 adds multiple new content to the game, most notable being the readdition of Uranium
 
 ## Credits
+
 Credits are in [credits](credits.md)
 
 ## Additions
@@ -24,4 +25,4 @@ Credits are in [credits](credits.md)
 |Control Rod Factory|Production|Produces Uranium Control Rods|Yes|
 |Uranium Reactor|Power|Don't forget to put in the coolant|Yes|
 |Actiner|Turret|Nuclear powered turret that fires high-velocity and high-voltage lasers using Uranium and U235 respectively|Yes|
-|M.A.D Termination|Music|Composed by (my friend) [@Nulore7](https://twitter.com/nulore7)|Adding in v0.2|
+|M.A.D Termination|Music|Composed by (my friend) [@Nulore7](https://twitter.com/nulore7)|Will add in a later version|

@@ -9,7 +9,7 @@
 	"hasLiquids": false,
 	"hasItems": true,
 	"craftTime": 150,
-	"itemCapacity": 30,
+	"itemCapacity": 15,
 	"craftEffect": "instBomb",
 	"updateEffect": "none",
 	"consumes": {
