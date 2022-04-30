@@ -1,0 +1,35 @@
+{	
+    "type": "GenericCrafter",
+
+	"name": "Uranium Seeder",
+	"description": "Seeds Thorium with Spore Pods to create Uranium",
+
+	"size": 2,
+	"hasPower": true,
+	"hasLiquids": false,
+	"hasItems": true,
+	"craftTime": 150,
+	"itemCapacity": 30,
+	"craftEffect": "instBomb",
+	"updateEffect": "none",
+	"consumes": {
+		"power": 2,
+		"items": {
+			"items": [
+				"thorium/3",
+				"spore-pod/2"
+			]
+		}
+	},
+	"requirements": [
+		{"item": "silicon", "amount": 460},
+		{"item": "lead", "amount": 160},
+		{"item": "thorium", "amount": 140}
+	],
+	"category": "crafting",
+	"research": "item-uranium",
+	"outputItem": {
+		"item": "item-uranium",
+		"amount": 1
+	}
+}

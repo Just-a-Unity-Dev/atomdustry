@@ -1,0 +1,35 @@
+{	
+    "type": "GenericCrafter",
+
+	"name": "Mass Spectrometer Uranium Enricher",
+	"description": "Converts Uranium to U235",
+
+	"size": 2,
+	"hasPower": true,
+	"hasLiquids": false,
+	"hasItems": true,
+	"craftTime": 250,
+	"itemCapacity": 30,
+	"craftEffect": "instBomb",
+	"updateEffect": "none",
+	"consumes": {
+		"power": 5,
+		"items": {
+			"items": [
+				"item-uranium/10"
+			]
+		}
+	},
+	"requirements": [
+		{"item": "silicon", "amount": 460},
+		{"item": "item-uranium", "amount": 140},
+		{"item": "lead", "amount": 160},
+		{"item": "thorium", "amount": 140}
+	],
+	"category": "crafting",
+	"research": "item-uranium",
+	"outputItem": {
+		"item": "item-u235",
+		"amount": 1
+	}
+}

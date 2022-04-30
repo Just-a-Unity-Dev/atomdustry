@@ -1,0 +1,36 @@
+{	
+    "type": "GenericCrafter",
+
+	"name": "Control Rod Factory",
+	"description": "Creates control rods from Silicon and Uranium",
+
+	"size": 2,
+	"hasPower": true,
+	"hasLiquids": false,
+	"hasItems": true,
+	"craftTime": 350,
+	"itemCapacity": 30,
+	"craftEffect": "instBomb",
+	"updateEffect": "none",
+	"consumes": {
+		"power": 2,
+		"items": {
+			"items": [
+				"item-uranium/3",
+				"silicon/2"
+			]
+		}
+	},
+	"requirements": [
+		{"item": "silicon", "amount": 160},
+		{"item": "lead", "amount": 160},
+		{"item": "thorium", "amount": 140},
+		{"item": "item-uranium", "amount": 60}
+	],
+	"category": "crafting",
+	"research": "uranium-reactor",
+	"outputItem": {
+		"item": "item-control-rod",
+		"amount": 1
+	}
+}

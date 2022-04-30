@@ -1,0 +1,15 @@
+{
+	"type": "material",
+	"name": "Uranium",
+	"description": "Radioactive material, toxic to life. Can be used as fuel for nuclear reactors or turrets.",
+	"cost": 1.2,
+	"color": "73D188",
+	"hardness": 4,
+	"explosiveness": 1,
+	"radioactivity": 1.2,
+	"requirements": [
+		"thorium/3",
+		"spore-pod/2"
+	],
+	"parent": "thorium"
+}

@@ -1,0 +1,7 @@
+{
+	"name": "Nuclear Waste",
+	"description": "Produced by the Nuclear Reactor, can be used as ammo for weaponry.",
+	"temperature": 4.45,
+	"heatCapacity": 1.6,
+	"color": "9CB664"
+}

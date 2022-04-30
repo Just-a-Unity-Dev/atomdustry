@@ -1,0 +1,36 @@
+{	
+    "type": "GenericCrafter",
+
+	"name": "Gas Uranium Enricher",
+	"description": "Converts Uranium to U235 at a faster rate, but requires a higher power usage",
+
+	"size": 3,
+	"hasPower": true,
+	"hasLiquids": false,
+	"hasItems": true,
+	"craftTime": 70,
+	"itemCapacity": 30,
+	"craftEffect": "instBomb",
+	"updateEffect": "none",
+	"consumes": {
+		"power": 15,
+		"items": {
+			"items": [
+				"item-uranium/4"
+			]
+		}
+	},
+	"requirements": [
+		{"item": "silicon", "amount": 460},
+		{"item": "lead", "amount": 160},
+		{"item": "thorium", "amount": 140},
+		{"item": "item-uranium", "amount": 140},
+		{"item": "item-u235", "amount": 50}
+	],
+	"category": "crafting",
+	"research": "item-uranium",
+	"outputItem": {
+		"item": "item-u235",
+		"amount": 4
+	}
+}

@@ -1,0 +1,53 @@
+{
+	"type": "NuclearReactor",
+
+	// meta
+	"health": 1200,
+	"itemCapacity": 30,
+	"liquidCapacity": 30,
+	"size": 3,
+
+	// kaboom
+	"lightColor": "a2ff70",
+	"explosionRadius": 25000,
+    "explosionDamage": 16000,
+
+	// regular reactor stuffs
+	"powerProduction": 500,
+	"itemDuration": 210,
+	"heating": 0.5,
+
+	// consumption
+	"consumes": {
+		"items": {
+			"items": [
+				"item-uranium/2",
+				"item-control-rod/4"
+			]
+		},
+		"liquid": {
+			"liquid": "cryofluid",
+			"amount": 4
+		}
+	},
+
+	"name": "Uranium Reactor",
+	"description": "Far more efficient than a Thorium Reactor, but also more violent. It has a built in primitive logic processor to shut down the reactor if no control rods are inserted. But since it is primitive technology, it doesn't shut down when lacking coolant.",
+	"requirements": [
+		{ "item": "lead", "amount": 400 },
+		{ "item": "silicon", "amount": 300 },
+		{ "item": "graphite", "amount": 150 },
+		{ "item": "item-uranium", "amount": 350 },
+		{ "item": "metaglass", "amount": 150 },
+		{ "item": "surge-alloy", "amount": 250 },
+		{ "item": "blast-compound", "amount": 250 }
+	],
+
+	"outputItem": {
+		"liquid": "liquid-nuclear-waste",
+		"amount": 16
+	}
+	
+	"category": "power",
+	"research": "thorium-reactor"
+}

@@ -1,0 +1,14 @@
+{
+	"type": "material",
+	"name": "Uranium 235",
+	"description": "Extremely fissile radioactive material enriched from uranium.",
+	"cost": 1.5,
+	"color": "73D188",
+	"hardness": 4,
+	"explosiveness": 2,
+	"radioactivity": 4,
+	"requirements": [
+		"item-u235/1"
+	],
+	"parent": "item-uranium"
+}
