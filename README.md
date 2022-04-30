@@ -4,7 +4,10 @@
 
 The power of the atom in the palm of your hand
 
-adds multiple new content to the game, most notable being the readdition of uranium
+adds multiple new content to the game, most notable being the readdition of Uranium
+
+## Credits
+Credits are in [credits](credits.md)
 
 ## Additions
 
