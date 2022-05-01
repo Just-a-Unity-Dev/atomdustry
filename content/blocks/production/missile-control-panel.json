@@ -3,6 +3,7 @@
 	"description": "Launch Missiles at your enemies with this 2x2 control panel.",
 
 	"size": 2,
+	"squareSprite": false,
 	
 	"consumes": {
 		"power": 2,
@@ -13,6 +14,9 @@
 			]
 		}
 	},
+
+	"destructible": true,
+	"solid": true,
 
 	"requirements": [
 		{"item": "silicon", "amount": 460},
