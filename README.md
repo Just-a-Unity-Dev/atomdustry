@@ -8,7 +8,9 @@ adds multiple new content to the game, most notable being the readdition of Uran
 
 ## Credits
 
-Credits are in [credits](credits.md)
+Author: `eclips_e#0001` (Just-a-Unity-Dev)
+
+Rest of the credits are in [credits.md](credits.md)
 
 ## Additions
 
