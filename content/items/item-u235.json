@@ -7,8 +7,10 @@
 	"hardness": 4,
 	"explosiveness": 2,
 	"radioactivity": 4,
-	"requirements": [
-		"item-u235/1"
-	],
-	"parent": "item-uranium"
+	"research": {
+		"parent": "item-uranium",
+		"requirements": [
+			"item-u235/1"
+		]
+	}
 }

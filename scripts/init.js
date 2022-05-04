@@ -12,6 +12,6 @@ mcp.destructible = true;
 mcp.solid = true;
 mcp.requirements = ItemStack.with(Items.silicon, 460, Items.lead, 160, Items.thorium, 140);
 mcp.category = Category.crafting;
-mcp.research = "item-uranium";
+// mcp.research = "item-uranium";
 
 print("Atomdustry initalized");

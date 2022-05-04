@@ -7,9 +7,11 @@
 	"hardness": 4,
 	"explosiveness": 1,
 	"radioactivity": 1.2,
-	"requirements": [
-		"thorium/3",
-		"spore-pod/2"
-	],
-	"parent": "thorium"
+	"research": {
+		"parent": "thorium",
+		"requirements": [
+			"thorium/3",
+			"spore-pod/2"
+		]
+	}
 }
