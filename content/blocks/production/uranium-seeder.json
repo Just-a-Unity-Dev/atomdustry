@@ -27,7 +27,7 @@
 		{"item": "thorium", "amount": 140}
 	],
 	"category": "crafting",
-	"research": "item-uranium",
+	"research": "cultivator",
 	"outputItem": {
 		"item": "item-uranium",
 		"amount": 1
